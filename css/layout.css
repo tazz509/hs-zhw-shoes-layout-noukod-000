@@ -24,4 +24,56 @@
 
 /* Posititoning Classes */
 
+body,html{
+  height:100%;
+  min-height:100%;
+  margin:0;
+}
 
+
+
+.columns-wrapper{
+  height:100%;
+}
+
+.columns-1,.columns-2{
+  height:40%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.shadow{
+  height:100%;
+}
+
+.columns-1 .shadow:first-child{
+  width:64.66%;
+  margin-right:2%;
+  float:left;
+  height: 100%;
+}
+
+.columns-1 .shadow:last-child{
+  width:32.33%;
+  float:left;
+  height:100%;
+}
+
+.columns-2{
+  margin-top:20px;
+}
+
+.columns-2 .shadow:first-child,.columns-2 .shadow:nth-child(2){
+  width:31.33%;
+  margin-right:2%;
+  float:left;
+}
+
+.columns-2 .shadow:last-child{
+  width:32.33%;
+  float:left;
+}
